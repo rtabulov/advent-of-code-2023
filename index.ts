@@ -1,3 +1,5 @@
-import { runTrebuchetWithInput } from './tasks/trebuchet';
+import { cubeConundrumWithInput } from './tasks/cube-conundrum';
+import { trebuchetWithInput } from './tasks/trebuchet';
 
-console.log(await runTrebuchetWithInput());
+console.log(`Day 1, Trebuchet: ${await trebuchetWithInput()}`);
+console.log(`Day 2, Cube Conundrum: ${await cubeConundrumWithInput()}`);

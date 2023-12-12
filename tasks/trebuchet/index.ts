@@ -12,7 +12,7 @@ const DIGITS_OBJ = {
   nine: 9,
 } as const;
 
-export async function runTrebuchetWithInput() {
+export async function trebuchetWithInput() {
   const input = await Bun.file(join(import.meta.dir, 'input.txt')).text();
   return trebuchet(input);
 }
